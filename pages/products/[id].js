@@ -55,9 +55,7 @@ export default function product({
 }
 
 export async function getStaticProps({ params }) {
-  const res = await axios.get(
-    `http://localhost:3000/api/products/${params.id}`
-  );
+  const res = await axios.get(`http://localhost:3000/api/product/${params.id}`);
   const prod = res.data;
 
   return {

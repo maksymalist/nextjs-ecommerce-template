@@ -16,7 +16,7 @@ export default function ProductCard({ id, discount }) {
   const [product, setProduct] = useState(null);
 
   const getProduct = async () => {
-    const res = await axios.get(`/api/products/${id}`);
+    const res = await axios.get(`/api/product/${id}`);
     setProduct(res.data);
   };
   useEffect(() => {

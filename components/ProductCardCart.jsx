@@ -11,7 +11,7 @@ export default function ProductCardCart({ id, uuid, quantity }) {
   const [product, setProduct] = useState({});
 
   const getProduct = async () => {
-    const res = await axios.get(`/api/products/${id}`);
+    const res = await axios.get(`/api/product/${id}`);
     const data = res.data;
     setProduct(data);
   };
