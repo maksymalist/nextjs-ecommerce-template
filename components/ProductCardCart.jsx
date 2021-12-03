@@ -3,7 +3,7 @@ import styles from "../styles/Cart.module.css";
 import { Button, Typography } from "@mui/material";
 import { useDispatch } from "react-redux";
 import Link from "next/link";
-import { removeFromCart } from "../actions/cart";
+import { removeFromCart } from "../actions/Cart/index";
 import axios from "axios";
 
 export default function ProductCardCart({ id, uuid, quantity }) {

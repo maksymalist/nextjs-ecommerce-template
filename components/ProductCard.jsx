@@ -5,7 +5,7 @@ import Link from "next/link";
 
 import { Typography, Chip, Button } from "@mui/material";
 import { useDispatch } from "react-redux";
-import { addToCart } from "../actions/cart/index";
+import { addToCart } from "../actions/Cart/index";
 
 import { useEffect, useState } from "react";
 import axios from "axios";

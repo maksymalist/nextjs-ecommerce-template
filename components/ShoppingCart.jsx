@@ -5,7 +5,7 @@ import Link from "next/link";
 import styles from "../styles/Cart.module.css";
 import ProductCardCart from "./ProductCardCart";
 
-import { clearCart } from "../actions/cart";
+import { clearCart } from "../actions/Cart/index";
 import axios from "axios";
 
 export default function Cart() {
