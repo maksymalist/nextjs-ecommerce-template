@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #000;
+  color: #fff;
+  list-style-type: none;
+  height: 75px;
+  position: fixed;
+  width: 100%;
+  font-size: 1.25rem;
+  margin-bottom: 50px;
+  z-index: 10;
+}
+.liMargin {
+  margin-inline: 50px;
+}
+.liSmallMargin {
+  margin-inline: 20px;
+}
+.leftLinks {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.25rem;
+}
+.rightLinks {
+  display: flex;
+}

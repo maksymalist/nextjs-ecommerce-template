@@ -1,0 +1,26 @@
+{
+  "price_1K2U7pEQXAi5K2UPAZ9xwCBv": {
+    "id": "price_1K2U7pEQXAi5K2UPAZ9xwCBv",
+    "name": "Black Hoodie",
+    "price": "78.00",
+    "description": "This is a very nice black hoodie",
+    "image": "https://user-images.githubusercontent.com/79988159/144488962-abcb776d-7ad1-4dcd-beac-7c9964c23ce4.png",
+    "images": [
+      "https://user-images.githubusercontent.com/79988159/144488962-abcb776d-7ad1-4dcd-beac-7c9964c23ce4.png",
+      "https://user-images.githubusercontent.com/79988159/144488962-abcb776d-7ad1-4dcd-beac-7c9964c23ce4.png",
+      "https://user-images.githubusercontent.com/79988159/144488962-abcb776d-7ad1-4dcd-beac-7c9964c23ce4.png"
+    ]
+  },
+  "price_1K2hUGEQXAi5K2UPfB6Le9xS": {
+    "id": "price_1K2hUGEQXAi5K2UPfB6Le9xS",
+    "name": "White Hoodie",
+    "price": "78.00",
+    "description": "This is a very nice white hoodie",
+    "image": "https://user-images.githubusercontent.com/79988159/144661717-d850e41c-0a15-4b6a-ad79-7973f7ec6a1c.png",
+    "images": [
+      "https://user-images.githubusercontent.com/79988159/144661717-d850e41c-0a15-4b6a-ad79-7973f7ec6a1c.png",
+      "https://user-images.githubusercontent.com/79988159/144661717-d850e41c-0a15-4b6a-ad79-7973f7ec6a1c.png",
+      "https://user-images.githubusercontent.com/79988159/144661717-d850e41c-0a15-4b6a-ad79-7973f7ec6a1c.png"
+    ]
+  }
+}
