@@ -94,16 +94,16 @@ const Nav = () => {
               </MenuItem>
               <MenuItem>
                 <Button variant="contained" color="secondary">
-                  <a color="white" href="/api/auth/logout">
+                  <Link color="white" href="/api/auth/logout">
                     Logout
-                  </a>
+                  </Link>
                 </Button>
               </MenuItem>
             </Menu>
           </li>
         ) : (
           <li className={styles.liMargin}>
-            <a href="/api/auth/login">Login</a>
+            <Link href="/api/auth/login">Login</Link>
           </li>
         )}
         <li className={styles.liSmallMargin}>
