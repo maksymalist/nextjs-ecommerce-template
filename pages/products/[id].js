@@ -1,9 +1,7 @@
 import { Button, Typography } from "@mui/material";
 import React from "react";
 import styles from "../../styles/Product.module.css";
-import { useDispatch } from "react-redux";
-import { addToCart } from "../../actions/Cart/index";
-
+import AddToCart from "../../components/AddToCart";
 import axios from "axios";
 
 export default function product({
@@ -14,7 +12,6 @@ export default function product({
   images,
   id,
 }) {
-  const dispatch = useDispatch();
   return (
     <div className={styles.main}>
       <div className={styles.wrap}>
@@ -48,22 +45,7 @@ export default function product({
             </div>
 
             <div>
-              <Button
-                fullWidth
-                variant="contained"
-                color="primary"
-                onClick={() => {
-                  dispatch(
-                    addToCart({
-                      id: id,
-                      uuid: Math.random().toString(36).substring(2, 15),
-                      quantity: 1,
-                    })
-                  );
-                }}
-              >
-                Add to cart
-              </Button>
+              <AddToCart />
             </div>
           </div>
         </div>
