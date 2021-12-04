@@ -65,7 +65,7 @@ const Nav = () => {
         </li>
       </div>
       <div className={styles.rightLinks}>
-        {isLoading ? (
+        {/* {isLoading ? (
           "..."
         ) : user ? (
           <li className={styles.liSmallMargin}>
@@ -105,7 +105,7 @@ const Nav = () => {
           <li className={styles.liMargin}>
             <Link href="/api/auth/login">Login</Link>
           </li>
-        )}
+        )} */}
         <li className={styles.liSmallMargin}>
           <ClickAwayListener onClickAway={() => setCartOpen(false)}>
             <Badge
