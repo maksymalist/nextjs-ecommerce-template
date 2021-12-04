@@ -76,7 +76,7 @@ const Nav = () => {
               onClose={handleClose}
               onClick={handleClose}
               style={{
-                width: "150px",
+                width: "150px"
                 marginTop: "30px",
                 display: "flex",
                 alignItems: "center",
