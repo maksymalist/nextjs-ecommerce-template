@@ -14,7 +14,7 @@ export default function product({ id }) {
               <img
                 className={styles.image}
                 src={products[id] ? products[id].image : ""}
-                alt={products[id] ? products[id].title : ""}
+                alt={products[id] ? products[id].name : ""}
               />
             </div>
           </div>
@@ -27,7 +27,7 @@ export default function product({ id }) {
                         style={{ width: "100px", height: "100px" }}
                         className={styles.image}
                         src={image}
-                        alt={products[id] ? products[id].title : ""}
+                        alt={products[id] ? products[id].name : ""}
                       />
                     </div>
                   );
@@ -39,7 +39,7 @@ export default function product({ id }) {
           <div className={styles.subCard}>
             <div>
               <Typography variant="h4">
-                {products[id] ? products[id].title : ""}
+                {products[id] ? products[id].name : ""}
               </Typography>
               <Typography variant="h5">
                 ${products[id] ? products[id].price : ""}
