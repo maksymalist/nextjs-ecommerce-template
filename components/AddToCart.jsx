@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { addToCart } from "../actions/Cart/index";
 import { Button, Typography } from "@mui/material";
 
-export default function DispatchButton() {
+export default function DispatchButton({ id }) {
   const dispatch = useDispatch();
   return (
     <div>

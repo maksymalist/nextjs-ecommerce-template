@@ -50,7 +50,7 @@ export default function product({ id }) {
             </div>
 
             <div>
-              <AddToCart />
+              <AddToCart id={id} />
             </div>
           </div>
         </div>
